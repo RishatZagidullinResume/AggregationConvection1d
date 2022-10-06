@@ -42,17 +42,15 @@ Based on [this publication](https://iopscience.iop.org/article/10.1088/1751-8121
 
 ![Fig4.jpg](/Fig4.jpg)
 
-* There is an attempt to compare the results to experimental data. To do that the model is coupled with a set of ODEs:
+* There is an attempt to compare the results with experimental data. To do that the model is coupled with a set of ODEs:
 
-$\frac{dC_{oz}}{dt} = I - \alpha C_{oz} -\beta \sum_{k=1}^\infty C_k k^{2/3} C_{oz}$
+$$\frac{dC_{oz}}{dt} = I - \alpha C_{oz} -\beta \sum_{k=1}^\infty C_k k^{2/3} C_{oz}$$
 
-$\frac{dq}{dt} = \gamma C_{oz} (q_{max}-q) \Theta((q_{max}-q)) - \xi q$
+$$\frac{dq}{dt} = \gamma C_{oz} (q_{max}-q) \Theta((q_{max}-q)) - \xi q$$
 
-$K_{ij} \rightarrow K_{ij}(1+q)$
+$$K_{ij} \rightarrow K_{ij}(1+q)$$
 
-where $C_{oz}$ - ozone concentration, $I$ - source, $\alpha$, $\beta$, $\gamma$,  $\xi$, $q_{max}$ - model parameters, $q$ - reaction parameter, $\Theta$ - Heaviside function.
-
-The ODEs have a multiplication effect on the coagulation kernel. Here is the current result (work in progress):
+where $C_{oz}$ - ozone concentration, $I$ - source, $\alpha$, $\beta$, $\gamma$,  $\xi$, $q_{max}$ - model parameters, $q$ - reaction parameter, $\Theta$ - Heaviside function. The ODEs have a multiplication effect on the coagulation kernel. Here is the current result (work in progress):
 
 ![map.jpg](/map.jpg)
 
