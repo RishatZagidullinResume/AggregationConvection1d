@@ -19,7 +19,7 @@ Monomer source lets us find stationary solutions
 
 * Monomer source is incorporated into the boundary condition (see functions **AdvDifCoag1d::iteration** and **AdvDifCoag1d::fillMatrix** in __solver.cpp__)
 
-* Data is dumped very `MOD` time iterations. `size` values are written after a newline. As a result we get a `size` x `TIME/MOD * max_x` matrix. Reading the data can be done in python using `.reshape` (see file __graph_output.ipynb__).
+* Data is dumped every `MOD` time iterations. `size` values are written after a newline. As a result we get a `size` x `TIME/MOD * max_x` matrix. Reading the data can be done in python using `.reshape` (see file __graph_output.ipynb__).
 
 * There are 5 launch examples:
 1. res_diff - No advection, constant diffusion, constant coagulation.
