@@ -52,6 +52,6 @@ $$K_{ij} \rightarrow K_{ij}(1+q)$$
 
 where $C_{oz}$ - ozone concentration, $I$ - source, $\alpha$, $\beta$, $\gamma$,  $\xi$, $q_{max}$ - model parameters, $q$ - reaction parameter, $\Theta$ - Heaviside function. The ODEs have a multiplication effect on the coagulation kernel. Here is the current result (work in progress):
 
-![map.jpg](/map.jpg)
+![Fig5.png](/Fig5.png)
 
 
